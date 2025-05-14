@@ -18,7 +18,7 @@ def submit():
 
   gateway = "dummy_gateway"
   operation_mode = "tcp"
-  tcp_istio_cluster = "outbound|8083||twistlock-console.anz-sec-twst.svc.cluster.local"
+  tcp_istio_cluster = "outbound|8083||twistlock-console.xsf-sec-twst.svc.cluster.local"
 
   dummy_certificate = "dummy_cert"
   dummy_certificate_status = "active"
