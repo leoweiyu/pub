@@ -87,9 +87,9 @@ def submit():
 
 
   backends = [
-    {"endpoint": "192.168.1.1:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.anz-sec-twst.svc.cluster.local"},
-    {"endpoint": "192.168.1.2:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.anz-sec-twst.svc.cluster.local"},
-    {"endpoint": "192.168.1.3:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.anz-sec-twst.svc.cluster.local"}
+    {"endpoint": "192.168.1.1:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.xsf-sec-twst.svc.cluster.local"},
+    {"endpoint": "192.168.1.2:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.xsf-sec-twst.svc.cluster.local"},
+    {"endpoint": "192.168.1.3:8083", "status":"HEALTHY", "outlier_check": "OK", "cluster": "outbound|8083||twistlock-console.xsf-sec-twst.svc.cluster.local"}
   ]
 
   response = {
