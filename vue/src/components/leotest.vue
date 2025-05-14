@@ -46,7 +46,7 @@ const submitForm = async() => {
     	      type="text" 
     	      id="hostname" 
     	      v-model="hostname" 
-    	      title="Enter FQDN of the site you want to troubleshoot, for example aaa.box.asdf.anz.com"
+    	      title="Enter FQDN of the site you want to troubleshoot, for example aaa.box.asdf.xsf.com"
     	      required 
     	    />
           </div>
